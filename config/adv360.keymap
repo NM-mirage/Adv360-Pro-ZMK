@@ -61,11 +61,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3          &kp F4           &kp F5  &kp F6             &tog 1                                                                       &mo 3  &kp F7        &kp F8          &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &kp F5          &kp F1           &kp F6  &trans              &none                                                               &kp C_BRI_INC  &trans        &trans          &trans   &trans   &trans   &trans
- &trans  &trans  &kp F3          &kp F2           &kp F4  &trans            &kp TAB      &kp LEFT_ALT  &kp LCTRL                  &trans  &trans   &kp C_BRI_DN  &trans        &kp F9          &kp F8   &kp F7   &trans   &trans
- &trans  &trans   &kp X           &kp Y            &kp Z  &trans                                          &trans                  &trans                         &trans        &trans          &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW                     &kp F9  &kp LEFT_COMMAND     &trans                  &trans  &kp F8         &kt F7          &kp UP_ARROW  &kp DOWN_ARROW   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3          &kp F4           &kp F5  &kp F6             &tog 1                                                                        &mo 3  &kp F7        &kp F8          &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans  &kp F5          &kp F1           &kp F6  &trans              &none                                                                &kp C_BRI_INC  &trans        &trans          &trans   &trans   &trans   &trans
+ &trans  &trans  &kp F3          &kp F2           &kp F4  &trans            &kp TAB      &kp LEFT_ALT  &kp LCTRL                  &trans   &trans   &kp C_BRI_DN  &trans        &kp F9          &kp F8   &kt F7   &trans   &trans
+ &trans  &trans   &kp X           &kp Y            &kp Z  &trans                                          &trans                  &trans                          &trans        &trans          &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW                     &kp F9  &kp LEFT_COMMAND     &trans                  &trans  &kt F10         &kp F8          &kp UP_ARROW  &kp DOWN_ARROW   &trans   &trans   &trans
             >;
         };
 
