@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                &mo 3         &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp TAB                                                                               &kp C_VOL_UP  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&tog 2     &kp A      &kp S     &kp D     &kp F      &kp G   &kp C_MUTE     &kp LEFT_CONTROL   &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp C_VOL_DN  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                     &kp HOME          &kp PG_UP                                       &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp ESC    &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp RIGHT_COMMAND  &kp END           &kp PG_DN      &kp ENTER          &kp SPACE             &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &tog 2
+&kp EQUAL  &kp N1       &kp N2       &kp N3      &kp N4          &kp N5  &tog 1                                                                                &mo 3         &kp N6  &kp N7                &kp N8                 &kp N9       &kp N0    &kp MINUS
+&kp TAB    &kp Q        &kp W        &kp E       &kp R           &kp T   &kp TAB                                                                               &kp C_VOL_UP  &kp Y   &kp U                 &kp I                  &kp O        &kp P     &kp BSLH
+&tog 2     &hm LG(X) A  &hm LG(C) S  &hm DOWN D  &hm UP_ARROW F  &kp G   &kp C_MUTE     &kp LEFT_CONTROL   &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp C_VOL_DN  &kp H   &hm RG(LEFT_ARROW) J  &hm RG(RIGHT_ARROW) K  &hm RG(V) L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z        &kp X        &kp C       &kp V           &kp B                                     &kp HOME          &kp PG_UP                                       &kp N   &kp M                 &kp COMMA              &kp DOT      &kp FSLH  &kp RSHFT
+&kp ESC    &kp GRAVE    &kp CAPS     &kp LEFT    &kp RIGHT               &kp BACKSPACE  &kp RIGHT_COMMAND  &kp END           &kp PG_DN      &kp ENTER          &kp SPACE             &kp UP                &kp DOWN               &kp LBKT     &kp RBKT  &tog 2
             >;
         };
 
