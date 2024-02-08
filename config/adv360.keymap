@@ -59,7 +59,7 @@
 &trans      &trans   &trans  &trans          &trans           &trans   &tog 1                                                                               &mo 3              &kp F7  &kp F8        &kp F9          &kp F10  &kp F11  &kp F12
 &trans      &kp Q    &kp F5  &kp F1          &kp F6           &trans   &kp TAB                                                                              &kp C_VOLUME_UP    &trans  &kp F9        &kp F1          &kp F8   &trans   &trans
 &trans      &kp F11  &kp F3  &kp F2          &kp F4           &kp F12  &kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp C_VOLUME_DOWN  &trans  &kp F3        &kp F2          &kp F4   &trans   &trans
-&trans      &trans   &kp X   &kp C           &kp V            &trans                                    &kp HOME          &kp PAGE_UP                                          &trans  &trans        &trans          &trans   &trans   &trans
+&trans      &trans   &kp X   &kp C           &kp V            &kp B                                     &kp HOME          &kp PAGE_UP                                          &trans  &trans        &trans          &trans   &trans   &trans
 &kp ESCAPE  &trans   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW           &kp BACKSPACE  &kp LEFT_COMMAND  &kp END           &kp PAGE_DOWN  &mkp RCLK          &mkp LCLK                  &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans   &trans
             >;
         };
