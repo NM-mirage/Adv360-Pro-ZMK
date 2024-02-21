@@ -12,6 +12,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -35,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1       &kp N2       &kp N3      &kp N4          &kp N5  &tog 1                                                                                &mo 3         &kp N6  &kp N7                &kp N8                 &kp N9       &kp N0    &kp MINUS
-&kp TAB    &kp Q        &kp W        &kp E       &kp R           &kp T   &kp TAB                                                                               &kp C_VOL_UP  &kp Y   &kp U                 &kp I                  &kp O        &kp P     &kp BSLH
-&tog 2     &hm LG(X) A  &hm LG(C) S  &hm DOWN D  &hm UP_ARROW F  &kp G   &kp C_MUTE     &kp LEFT_CONTROL   &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp C_VOL_DN  &kp H   &hm RG(LEFT_ARROW) J  &hm RG(RIGHT_ARROW) K  &hm RG(V) L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z        &kp X        &kp C       &kp V           &kp B                                     &kp HOME          &kp PG_UP                                       &kp N   &kp M                 &kp COMMA              &kp DOT      &kp FSLH  &kp RSHFT
-&kp ESC    &kp GRAVE    &kp CAPS     &kp LEFT    &kp RIGHT               &kp BACKSPACE  &kp RIGHT_COMMAND  &kp END           &kp PG_DN      &kp SPACE          &kp RET               &kp UP                &kp DOWN               &kp LBKT     &kp RBKT  &tog 2
+&kp EQUAL   &kp N1       &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                &mo 3              &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB     &kp Q        &kp W     &kp E     &kp R      &kp T   &kp TAB                                                                               &kp TAB            &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESCAPE  &hm LG(X) A  &kp S     &kp D     &kp F      &kp G   &kp C_MUTE     &kp LEFT_CONTROL   &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &ext_power EP_TOG  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z        &kp X     &kp C     &kp V      &kp B                                     &kp HOME          &kp PG_UP                                            &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&tog 2      &kp GRAVE    &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp RIGHT_COMMAND  &kp END           &kp PG_DN      &kp SPACE          &kp RET                    &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &tog 2
             >;
         };
 
@@ -55,11 +56,11 @@
 
         layer_fn {
             bindings = <
-&trans      &trans   &trans  &trans          &trans           &trans   &tog 1                                                                               &mo 3            &kp F7  &kp F8        &kp F9          &kp F10  &kp F11  &kp F12
-&trans      &kp Q    &kp F5  &kp F1          &kp F6           &trans   &kp TAB                                                                              &rgb_ug RGB_BRI  &trans  &kp F9        &kp F1          &kp F8   &trans   &trans
-&trans      &kp F11  &kp F3  &kp F2          &kp F4           &kp F12  &kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &rgb_ug RGB_BRD  &trans  &kp F3        &kp F2          &kp F4   &trans   &trans
-&trans      &trans   &kp X   &kp C           &kp V            &kp B                                     &kp HOME          &kp PAGE_UP                                        &trans  &trans        &trans          &trans   &trans   &trans
-&kp ESCAPE  &trans   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW           &kp BACKSPACE  &kp LEFT_COMMAND  &kp END           &kp PAGE_DOWN  &kp F9             &kp F8                   &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans   &trans
+&trans      &trans   &trans  &trans          &trans           &trans   &tog 1                                                                               &mo 3              &kp F7  &kp F8        &kp F9          &kp F10  &kp F11  &kp F12
+&trans      &kp Q    &kp F5  &kp F1          &kp F6           &trans   &kp TAB                                                                              &kp K_VOLUME_UP    &trans  &kp F9        &kp F1          &kp F8   &trans   &trans
+&trans      &kp F11  &kp F3  &kp F2          &kp F4           &kp F12  &kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp K_VOLUME_DOWN  &trans  &kp F3        &kp F2          &kp F4   &trans   &trans
+&trans      &trans   &kp X   &kp C           &kp V            &kp B                                     &kp HOME          &kp PAGE_UP                                          &trans  &trans        &trans          &trans   &trans   &trans
+&kp ESCAPE  &trans   &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW           &kp BACKSPACE  &kp LEFT_COMMAND  &kp END           &kp PAGE_DOWN  &kp F9             &kp F8                     &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans   &trans
             >;
         };
 
